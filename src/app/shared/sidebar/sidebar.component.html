@@ -1,0 +1,21 @@
+<h2>Busquedas</h2>
+    <hr>
+    <ul class="list-group">
+      <li class="list-group-item" 
+        routerLink=""
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{exact:true}"
+        >
+        <!-- [routerLinkActiveOptions]="{exact:true}"
+        Esta linea es necesaria debido a que el router link es "" 
+        si fuera pais o algo pro el estilo, no seria necesario-->
+        Buscar pais</li>
+      <li class="list-group-item" 
+        routerLink="/region"
+        routerLinkActive="active"
+        >Buscar Region</li>
+      <li class="list-group-item" 
+        routerLink="/capital"
+        routerLinkActive="active"
+      >Buscar Capital</li>
+    </ul>
